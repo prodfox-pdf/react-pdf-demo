@@ -6,6 +6,6 @@ html {
 .container {
   width: calc(100%);
   height: calc(100vh - 40px);
-  background: white;
+  background: rgb(135, 129, 129);
   border: 1px solid grey;
 }
