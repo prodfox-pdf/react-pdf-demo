@@ -7,7 +7,7 @@ function App() {
   const { download } = useCreateIframeAndLoadViewer({
     container: containerRef,
     fileName: "my-file.pdf",
-    licenseKey: "sandbox" || "f4470da7-1552-4a1c-b410-c6939faf5854",
+    licenseKey: "sandbox",
     locale: "en",
     tools: {
       editing: [
