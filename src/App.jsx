@@ -12,10 +12,8 @@ function App() {
     locale: "en",
     tools: {
       editing: [
-        // @ts-ignore
        "extract",
        "remove",
-       // @ts-ignore
         "move"
       ],
       thumbnails: [
@@ -28,7 +26,6 @@ function App() {
         "search",
         "panel-toggle",
         "zoom",
-        // @ts-ignore
         "chat"
       ],
     },
@@ -42,7 +39,6 @@ function App() {
         name: "my-file2.pdf"
       }
     ],
-    // file: /*"http://localhost:3000/pdfs/54f860c9-a945-46e6-b211-41e4b5497e94.pdf" ||*/ "https://pdftron.s3.amazonaws.com/downloads/pl/demo-annotated.pdf"
   });
 
 
