@@ -1,5 +1,5 @@
 import { useRef } from 'react';
-import { useCreateIframeAndLoadViewer } from "pdf_editor_aleon35_react_plugin";
+import { useCreateIframeAndLoadViewer } from "@prodfox/react-ui-plugin";
 
 function App() {
   const containerRef = useRef(null);
@@ -25,8 +25,7 @@ function App() {
         "download",
         "search",
         "panel-toggle",
-        "zoom",
-        "chat"
+        "zoom"
       ],
     },
     files: [
